@@ -23,7 +23,7 @@ function index() {
 		console.log(packageJson.version);
 	} else if (~input.indexOf('-w')) {
 		replace.parse(argv[1]);
-		replace.watch(argv[1]);
+		replace.watcher(argv[1]);
 	} else {
 		replace.parse(argv[0]);
 	}
