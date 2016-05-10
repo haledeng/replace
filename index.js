@@ -40,7 +40,7 @@ function replace(input) {
 
 var _handler = function(input) {
 	var content = replace(input);
-	fs.writeFileSync(path.basename(args[0]) , content, {
+	fs.writeFileSync(path.basename(input) , content, {
 		encoding: 'utf-8'
 	});
 };

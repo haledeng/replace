@@ -1,6 +1,6 @@
 {
   "name": "replace-file",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "replace file with its content",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "url": "https://github.com/haledeng/replace/issues"
   },
   "homepage": "https://github.com/haledeng/replace#readme",
-  "devDependencies": {
+  "dependencies": {
     "css2string": "^1.0.2",
     "parse-tpl": "^1.0.2",
     "watch": "^0.18.0"
