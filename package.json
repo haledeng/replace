@@ -1,6 +1,6 @@
 {
   "name": "replace",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "replace file with its content",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,9 @@
   "keywords": [
     "replace"
   ],
+  "bin": {
+    "rep": "bin/cli.js"
+  },
   "author": "denghailong",
   "license": "MIT",
   "bugs": {
